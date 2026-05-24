@@ -1,0 +1,114 @@
+# TouchDesigner backup and cache files
+*.toe.backup
+*.toe~
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# TouchDesigner specific
+*.toe.bak
+*.tox.bak
+media/cache/
+temp/
+.touchdesigner/
+
+# OS specific
+Thumbs.db
+.DS_Store
+*.lnk
+
+# Logs
+*.log
+logs/
+
+# Local configuration files
+config.local.json
+secrets.json
+.env
+.env.local
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Node modules (if using Node-based tools)
+node_modules/
+npm-debug.log
+
+# Compiled documentation
+docs/_build/
+site/
+
+# IDE temporary files
+.vs/
+.vscode/settings.json
+.vscode/launch.json
+
+# macOS specific
+.AppleDouble
+.LSOverride
+._*
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bkp
